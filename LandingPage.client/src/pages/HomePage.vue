@@ -10,7 +10,36 @@
   </div> -->
   <section class="row">
     <div class="text-center py-4 text-white">
-      <h5><em>Some kind of image here</em></h5>
+      <h5><em>Background img here</em></h5>
+    </div>
+  </section>
+
+  <!-- <section class="row">
+    <div class="home">
+      <Carousel>
+        <Slide>
+          <h5 class="text-white" > testing slide</h5>
+        </Slide>
+      </Carousel>
+    </div>
+  </section> -->
+
+
+  <section class="row">
+    <div class="text-center">
+      <h5>About</h5>
+    </div>
+  </section>
+
+  <section class="row">
+    <div class="text-center">
+      <h5>About</h5>
+    </div>
+  </section>
+
+  <section class="row">
+    <div class="text-center">
+      <h5>About</h5>
     </div>
   </section>
 
@@ -32,9 +61,17 @@
 </template>
 
 <script>
+// import { Carousel } from '../components/Carousel.vue';
+// import { Slide } from '../components/Slide.vue';
+
 export default {
+  // name:"Home", 
+  // components: {Carousel, Slide},
   setup() {
-    return {}
+    // const carouselSlides = ["bg-1", "bg-2", "bg-3"];
+    return {
+      // carouselSlides
+    }
   }
 }
 </script>
